@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { DataStorageService } from './shared/data-storage.service';
+import { KoleksiComponent } from './koleksi/koleksi.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { DataStorageService } from './shared/data-storage.service';
     //tambahkan code berikut (3)
     ShoppingEditComponent,
     DropdownDirective,
+    KoleksiComponent
 ],
   imports: [
     BrowserModule,
